@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(40, 40, 40); /* RGB color */
+    background: #fafafa;  /* Hex color */
+}
+
+/* Header */
+header {
+    background: lightblue; /* Named color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #444;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    background: #333;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to bottom, #333, #555); /* Task 20: gradient */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Skills list */
+ul li {
+    margin: 8px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+}
+
+/* Blockquote styling */
+blockquote {
+    padding: 15px;
+    background: #efefef;
+    border-left: 5px solid #333;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Portfolio */
+figure {
+    width: 220px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+figure img {
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/* Form */
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    transition: 0.3s;  /* Task 20: creative enhancement */
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 2px solid #444;
+}
